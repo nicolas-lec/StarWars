@@ -3,6 +3,7 @@ package fr.eni.ecole.starwars.bo;
 import com.google.gson.annotations.SerializedName;
 
 public class Person {
+    
     @SerializedName("birth_year")
     private String birthYear;
     @SerializedName("eye_color")
